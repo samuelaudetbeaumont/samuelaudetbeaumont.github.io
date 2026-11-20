@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Samuel Audet-Beaumont — Ph.D. candidate in pure mathematics at Université Laval. Research in spectral geometry, high multiplicity constructions, and discretization schemes.">
+  <title>Samuel Audet-Beaumont | Mathematics</title>
+  <style>
+    :root {
+      --ink:#1f252b;
+      --muted:#5b6773;
+      --accent:#275b83;
+      --line:#d8e0e6;
+      --bg:#ffffff;
+      --soft:#f7f9fb;
+    }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      background:var(--bg);
+      color:var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height:1.65;
+      font-size:17px;
+    }
+    a { color:var(--accent); text-underline-offset:3px; }
+    a:hover { color:#163a53; }
+    .container {
+      max-width:980px;
+      margin:0 auto;
+      padding:0 28px;
+    }
+    header {
+      border-bottom:1px solid var(--line);
+      background:#fff;
+    }
+    .header-inner {
+      display:flex;
+      justify-content:space-between;
+      align-items:baseline;
+      flex-wrap:wrap;
+      gap:10px 24px;
+      padding:34px 0 22px;
+    }
+    .site-name {
+      color:var(--ink);
+      text-decoration:none;
+      font-size:1.55rem;
+    }
+    nav {
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:.9rem;
+    }
+    nav a {
+      color:var(--muted);
+      text-decoration:none;
+    }
+    nav a:hover { text-decoration:underline; }
+    main { padding:42px 0 70px; }
+    .hero {
+      display:grid;
+      grid-template-columns: 300px 1fr;
+      gap:34px;
+      align-items:start;
+    }
+    .hero img {
+      width:100%;
+      border:1px solid var(--line);
+      border-radius:4px;
+      display:block;
+    }
+    h1 {
+      font-size:2.2rem;
+      font-weight:normal;
+      line-height:1.18;
+      margin:0 0 10px;
+    }
+    .subtitle {
+      margin:0 0 22px;
+      color:var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:.97rem;
+    }
+    .actions {
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px 16px;
+      margin-top:20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:.93rem;
+    }
+    .button {
+      display:inline-block;
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:4px;
+      text-decoration:none;
+      color:var(--ink);
+      background:#fff;
+    }
+    .button:hover {
+      border-color:#b8c5cf;
+      background:var(--soft);
+      text-decoration:none;
+    }
+    section { margin-top:46px; }
+    h2 {
+      font-size:1.34rem;
+      font-weight:normal;
+      margin:0 0 18px;
+      padding-bottom:8px;
+      border-bottom:1px solid var(--line);
+    }
+    p { margin:0 0 16px; }
+    .list, .pubs {
+      margin:0;
+      padding-left:20px;
+    }
+    .pubs li, .list li { margin-bottom:15px; }
+    .small { color:var(--muted); font-size:.94rem; }
+    .cards {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px 24px;
+    }
+    .card {
+      border:1px solid var(--line);
+      background:var(--soft);
+      padding:16px 18px;
+      border-radius:4px;
+    }
+    footer {
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:.83rem;
+      padding:22px 0 30px;
+    }
+    @media (max-width: 760px) {
+      .hero { grid-template-columns:1fr; }
+      .hero img { max-width:320px; }
+      .cards { grid-template-columns:1fr; }
+      h1 { font-size:1.9rem; }
+    }
+    @media (max-width: 520px) {
+      body { font-size:16px; }
+      .container { padding:0 20px; }
+      .header-inner { padding-top:24px; }
+      main { padding-top:30px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="site-name" href="#top">Samuel Audet-Beaumont</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="top">
+    <section class="hero" id="about">
+      <div>
+        <img src="profile.png" alt="Portrait of Samuel Audet-Beaumont">
+      </div>
+      <div>
+        <h1>Samuel Audet-Beaumont</h1>
+        <p class="subtitle">Ph.D. Candidate in Pure Mathematics · Université Laval · Québec, Canada</p>
+        <p>I am a Ph.D. candidate in pure mathematics at Université Laval, supervised by Alexandre Girouard. My research lies in spectral geometry, with particular interests in Steklov eigenvalue problems, high multiplicity constructions, spectral discretization, and representation-theoretic methods.</p>
+        <p>Broadly, I study the interplay between continuous and discrete spectral problems: on one hand, using graph-based and symmetry-based ideas to construct manifolds with remarkable spectral behaviour; on the other, refining discretization schemes that approximate spectral data from finite geometric information.</p>
+        <div class="actions">
+          <a class="button" href="CV.pdf">Download CV (PDF)</a>
+          <a class="button" href="mailto:samuel.audet-beaumont.1@ulaval.ca">Email</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <p>My work focuses on spectral geometry and graph-based methods. One direction concerns constructing manifolds with large eigenvalue multiplicities, especially through symmetry and representation theory. Another concerns the analysis and refinement of discretization schemes for Steklov, Neumann, and related spectral problems.</p>
+      <p>I am interested in how discrete models can both illuminate geometric spectral phenomena and provide rigorous approximations of spectra arising from smooth spaces.</p>
+    </section>
+
+    <section id="publications">
+      <h2>Publications and Preprints</h2>
+      <ol class="pubs">
+        <li>
+          <strong>Constructing surfaces with first Steklov eigenvalue of arbitrarily large multiplicity.</strong><br>
+          S. Audet-Beaumont.<br>
+          <span class="small"><em>Canadian Mathematical Bulletin</em> <strong>69</strong>(2) (2026), 572–586.</span><br>
+          <a href="https://doi.org/10.4153/S0008439525101288">DOI</a>
+        </li>
+        <li>
+          <strong>A graph discretization of the Steklov and Neumann problems on domains in complete Riemannian manifolds.</strong><br>
+          S. Audet-Beaumont.<br>
+          <span class="small">Preprint.</span><br>
+          <a href="https://arxiv.org/abs/2611.17491">arXiv:2611.17491</a>
+        </li>
+        <li>
+          <strong>Equivariant Steklov homogenisation and stability of spectral representations.</strong><br>
+          S. Audet-Beaumont, M. Fortier-Bourque, and A. Girouard.<br>
+          <span class="small">Preprint, submitted for publication.</span><br>
+          <a href="https://arxiv.org/abs/2610.12725">arXiv:2610.12725</a>
+        </li>
+      </ol>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching and Mentoring</h2>
+      <div class="cards">
+        <div class="card">
+          <strong>Lecturer</strong><br>
+          Mathematics for Engineering III, Université Laval<br>
+          <span class="small">Fall 2023 and Fall 2024</span>
+        </div>
+        <div class="card">
+          <strong>Graduate Research Assistant and Directed Reading Mentor</strong><br>
+          Université Laval<br>
+          <span class="small">2024</span>
+        </div>
+        <div class="card">
+          <strong>Teaching Assistant and Tutor</strong><br>
+          Undergraduate mathematics courses, Université Laval<br>
+          <span class="small">Since 2021</span>
+        </div>
+        <div class="card">
+          <strong>Teaching Distinctions</strong><br>
+          Étoile de l’enseignement FSG (2023 and 2024)<br>
+          <span class="small">Faculty of Science and Engineering, Université Laval</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Université Laval<br>
+        Québec, Canada<br>
+        Email: <a href="mailto:samuel.audet-beaumont.1@ulaval.ca">samuel.audet-beaumont.1@ulaval.ca</a><br>
+        Website: <a href="https://samuelaudetbeaumont.github.io/">samuelaudetbeaumont.github.io</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Samuel Audet-Beaumont · Mathematics · Université Laval</div>
+  </footer>
+</body>
+</html>
